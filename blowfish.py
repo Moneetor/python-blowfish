@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # vim: filetype=python3 tabstop=2 expandtab
 
 # blowfish
@@ -15,6 +16,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
+# UTF coding declared by Moneetor
 
 """
 This module implements the Blowfish cipher using only Python (3.4+).
@@ -29,7 +31,7 @@ Schneier and more details about it can be found at
 from struct import Struct, error as struct_error
 from itertools import cycle as iter_cycle
 
-__version__ = "0.7.0"
+__version__ = "0.7.1"
 
 # PI_P_ARRAY & PI_S_BOXES are the hexadecimal digits of π (the irrational)
 # taken from <https://www.schneier.com/code/constants.txt>.
